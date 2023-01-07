@@ -1,0 +1,218 @@
+/*banner style*/
+.header{
+    background-image: url("../images/banner/banner3.png");
+    position: absolute;
+    width: 1600px;
+    height: 800px;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.banner-title{
+    position: absolute;
+    text-align: right;
+    width: 525px;
+    height: 228px;
+    left: 950px;
+    top: 150px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.banner-subtitle{
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 980px;
+    top: 420px;
+    font-weight: 400;
+    font-size: 20px;
+    color:gold;
+    text-align: right;
+}
+.btn-primary{
+    position: absolute;
+    width: 140px;
+    height: 45px;
+    left: 1335px;
+    top: 530px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 10px;
+
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*first section style*/
+.failure{
+    display: flex;
+}
+.failure .image{
+    position: absolute;
+    width: 569px;
+    height: 723.3px;
+    left: 294px;
+    top: 951px;
+}
+.failure-all{
+    position: absolute;
+    width: 416px;
+    height: 400px;
+    left: 950px;
+    top: 1190px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+/* plan section*/
+.plan-container{
+    display: flex;
+}
+.plan-title{
+    position: absolute;
+    width: 179px;
+    height: 47px;
+    left: 765px;
+    top: 1792px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.plan-container{
+    position: absolute;
+    width: 1141px;
+    height: 202.96px;
+    left: 300px;
+    top: 1889px;
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+.plan-container img{
+    margin-top: 60px;
+}
+.plan-heading{
+    font-size: 25px;
+    font-weight: 700;
+}
+.plan{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 250px;
+    height: 300px;
+}
+.poster{
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 280px;
+    top: 2340px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("../images/watch.png");
+}
+.poster-title{
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 490px;
+    height: 75px;
+    margin-bottom: 10px;
+}
+.btn-secondery{
+    width: 130px;
+    height: 45px;
+    background-color: brown;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer{
+    position: absolute;
+    width: 1600px;
+    height: 400px;
+    left: 0px;
+    top: 3500px;
+    background-color: black;
+    display: flex;
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-left: 50px;
+    gap: 500px;
+}
+.footer-title{
+    font-size: 30px;
+}
+.footer-icon{
+    gap: 35px;
+    display: flex;
+}
+.footer-social{
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top: 2781.96px;
+}
+.footer-contact{
+    width: 250px;
+    height: 400px;
+    left: 900px;
+    top: 2781.96px;
+    color: aliceblue;
+}
+.footer-header{
+    font-weight: 400;
+    font-size: 30px;
+    left: 1046px;
+}
+.footer-contact input[type="email"]{
+    width: 300px;
+    height: 40px;
+    left: 1046px;
+    top: 2781.96px;
+    margin-top: 0;
+
+
+}
+.btn-tertiary{
+    width: 130px;
+    height: 45px;
+    background-color: brown;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.failure-list ul {
+    list-style-image: url("../images/icons/bullet.png");
+}
+.skill{
+    display: flex;
+}
+.image-skill{
+    position: absolute;
+    width: 569px;
+    height: 500px;
+    left: 950px;
+    top: 2750px;
+}
+.skill-all{
+    position: absolute;
+    width: 416px;
+    height: 400px;
+    left: 350px;
+    top: 2850px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 40px;
+    left: 100px;
+}
+.skill-list ul{
+    font-size: 40px;
+    list-style-image: url("../images/icons/bullico.jpg");
+    position: absolute;
+}
+
+
